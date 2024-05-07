@@ -1,0 +1,82 @@
+.promo {
+    background-image: url("../assets/images/promo.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 900px;
+    margin-left: calc((1200px - 100vw)/2);
+}
+
+.promo-text {
+    font-family: Alumni-Sans, serif;
+    font-weight: 700;
+    font-size: 160px;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #EEEDED;
+    margin-left: calc((100vw - 1200px)/2);
+    padding-top: 40px;
+}
+
+.about {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-left {
+    font-family: Alumni-Sans, serif;
+    font-weight: 600;
+    font-size: 36px;
+    width: 580px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.about-right {
+    font-size: 16px;
+    width: 580px;
+}
+
+.stats {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.stats-row {
+    display: flex;
+    gap: 40px;
+}
+
+.stats-block {
+    width: 580px;
+    display: flex;
+    gap: 16px;
+    padding: 16px 32px 16px 32px;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+    border-color: #30292A66;
+    align-items: center;
+}
+
+.stats-block-left {
+    font-family: Montserrat;
+    font-size: 96px;
+    font-weight: 600;
+    text-align: right;
+    width: 250px;
+}
+
+.stats-block-right {
+    width: 258px;
+}
+
+.stats-block-right-h {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
