@@ -40,6 +40,7 @@
 
 .stats {
     margin-top: 120px;
+    margin-bottom: 36px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -55,14 +56,14 @@
     display: flex;
     gap: 16px;
     padding: 16px 32px 16px 32px;
-    border-width: 1px 0px 1px 0px;
+    border-width: 1px 0 1px 0;
     border-style: solid;
     border-color: #30292A66;
     align-items: center;
 }
 
 .stats-block-left {
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-size: 96px;
     font-weight: 600;
     text-align: right;
@@ -74,9 +75,55 @@
 }
 
 .stats-block-right-h {
-    font-family: Montserrat;
+    font-family: Montserrat, serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
     margin-bottom: 12px;
+}
+
+.block-with-header-columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-with-header-column1 {
+    width: 890px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.block-with-header-column2 {
+    width: 298px;
+}
+
+.block-with-header-item {
+    background-color: #F3F3F3;
+    border-radius: 6px;
+    height: 155px;
+    padding: 20px;
+    background-image: url("../assets/images/arrow-services.png");
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.block-with-header-column1-row {
+    display: flex;
+    gap: 12px;
+}
+
+.block-with-header-column1-lb {
+    width: 551px;
+}
+
+.block-with-header-column1-sb {
+    width: 327px;
 }

@@ -39,3 +39,18 @@
     margin-right: 12px;
 }
 
+.block-with-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-with-header-title {
+    font-family: Alumni-Sans, serif;
+    font-weight: 600;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+
+
