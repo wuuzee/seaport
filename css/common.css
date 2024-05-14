@@ -27,6 +27,11 @@
     gap: 40px;
 }
 
+.header-menu a {
+    text-decoration: none;
+    color: #212529;
+}
+
 .header-lang {
     display: flex;
 }
@@ -120,8 +125,9 @@
     color: #1E385F;
     font-size: 12px;
     background-color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-middle-contacts {

@@ -1,0 +1,94 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    padding-top: 24px;
+    border-style: solid;
+    border-color: #30292A99;
+    border-width: 1px 0 0 0;
+}
+
+.about {
+    display: flex;
+    gap: 40px;
+}
+
+.about-left {
+    font-size: 16px;
+    width: 787px;
+}
+
+.about-right {
+    width: 373px;
+    height: 336px;
+    background-image: url("../assets/images/about-img.png");
+    background-size: contain;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right-arrow {
+    display: flex;
+    justify-content: space-between;
+    width: 373px;
+}
+
+.ships {
+    display: flex;
+    gap: 40px;
+}
+
+.ship {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    border-radius: 6px;
+    border-color: #D6D6D6;
+    border-style: solid;
+}
+
+.ship-info {
+    margin: 24px 12px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.ship-name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ship-props {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ship-prop-name {
+    color: #6A6A6A;
+}
+
+.about-links {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-link {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #30292A66;
+    padding-left: 56px;
+    padding-right: 56px;
+}
